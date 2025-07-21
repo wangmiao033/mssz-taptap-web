@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #222;
+  font-family: '微软雅黑', sans-serif;
+  color: #fff;
+}
+.container {
+  text-align: center;
+  padding-top: 40px;
+}
+.main-image {
+  width: 60vw;
+  max-width: 600px;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+}
+.info-box {
+  margin-top: 30px;
+}
+.reservation-number {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.reservation-number strong {
+  font-size: 38px;
+  color: #00eaff;
+  margin-left: 10px;
+}
+.btn {
+  display: block;
+  width: 200px;
+  margin: 12px auto;
+  padding: 14px 0;
+  font-size: 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: box-shadow 0.2s, background 0.2s;
+}
+.btn-black {
+  background: #222;
+  color: #fff;
+  box-shadow: 0 2px 8px #000;
+}
+.btn-black:hover {
+  background: #444;
+}
+.btn-blue {
+  background: #00eaff;
+  color: #222;
+  font-weight: bold;
+  box-shadow: 0 2px 8px #00eaff88;
+}
+.btn-blue:hover {
+  background: #00b8c6;
+} 
